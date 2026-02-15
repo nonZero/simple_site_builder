@@ -1,0 +1,15 @@
+[project]
+name = "simple-site-builder"
+version = "0.0.1"
+description = "A very simple static site builder"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "markdown>=3.5",
+    "pytest>=9.0.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.1",
+]
